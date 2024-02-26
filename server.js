@@ -10,7 +10,7 @@ const db = new sqlite3.Database("./dua_main.sqlite");
 // Enable CORS with specific origin
 app.use(
   cors({
-    origin: "https://irdtaskfrontend.vercel.app/",
+    origin: "http://localhost:3001",
   })
 );
 
